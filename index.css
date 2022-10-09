@@ -28,6 +28,7 @@ height:94px;
 padding-left:10px;
 line-height:140%;
 }
+
 #home_title {
 margin:0px auto 0px auto;
 padding:0px auto 0px auto;
@@ -105,9 +106,4 @@ img.start{
 width:300px;
 height:130px;
 
-}
-
-#start {
-padding:10px 25px 10px 170px;
-line-height:150%;
 }
