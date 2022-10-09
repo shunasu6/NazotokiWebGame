@@ -8,132 +8,28 @@
 	initial-scale=1.0,
 	minimum-scale=1.0,
 	maximum-scale=2.0,
-	user-scalable=yes" />    <!--スマホの画面サイズ-->
+	user-scalable=yes" />
+	<!--スマホの画面サイズ-->
+
 <title>人間情報研究会 淑楓祭 謎解き</title>
 <link rel="stylesheet" href="index.css" type="text/css" />
-<link rel="stylesheet" href="index_camera.css"/>
+
 </head>
+
 <body>
 <div id="outer">
 	<div id="header"><h1>人間情報研究会 淑楓祭 謎解き</h1>
 		<p class="description">人間情報研究会</p>
 	</div>
-</div>
-<div id="text">
-	<h2>謎解き〇〇〇ゲーム！！！</h2>
-	<img src="img/kari.jpg" alt="仮置きの画像です！">
-</div>
-
-
-<body>
-    <button id="switch_btn">第一問　解答！</button>
-	<div id="search_field" style="display: none;">
-		<br><img src="img/karitest.jpg" alt="仮置きの画像です！">
-	<body>
-    <br><button id="switch_btn2">第二問　解答！</button>
-	<div id="search_field2" style="display: none;">
-		<br><img src="img/karitest.jpg" alt="仮置きの画像です！">
-	<body>
-    <br><button id="switch_btn3">第三問　解答！</button>
-	<div id="search_field3" style="display: none;">
-		<br><img src="img/karitest.jpg" alt="仮置きの画像です！">
-	</body>
+<div id="home_title">
+	<img src="img/title.jpg" alt="人間情報研究会タイトル画像" class="title">
+	<img src="img/BW_face.jpg" alt="BW顔" class="BW_face">
 	</div>
-  </body>
-<script>
-window.addEventListener("DOMContentLoaded", () => {
-  const switch_btn = document.getElementById("switch_btn");
-  const search_field = document.getElementById("search_field");
-  
-  switch_btn.addEventListener("click", () => {
-    if(getComputedStyle(search_field).display == "none"){
-      search_field.style.display = "block";
-    } else {
-      search_field.style.display = "none";
-    }
-  })
-})
-
-window.addEventListener("DOMContentLoaded", () => {
-  const switch_btn2 = document.getElementById("switch_btn2");
-  const search_field = document.getElementById("search_field2");
-  
-  switch_btn2.addEventListener("click", () => {
-    if(getComputedStyle(search_field).display == "none"){
-      search_field2.style.display = "block";
-    } else {
-      search_field2.style.display = "none";
-    }
-  })
-})
-
-window.addEventListener("DOMContentLoaded", () => {
-  const switch_btn3 = document.getElementById("switch_btn3");
-  const search_field = document.getElementById("search_field3");
-  
-  switch_btn3.addEventListener("click", () => {
-    if(getComputedStyle(search_field).display == "none"){
-      search_field3.style.display = "block";
-    } else {
-      search_field3.style.display = "none";
-    }
-  })
-})
-</script>
+<div id="start">
+<a href="mondai.html"><img src="img/start_c.png" alt="謎解きスタート" class="start"></a>
+</div>
+</div>
 
 
 
-
-
-<!--参考メモ-->
-<!--
-<script type="text/javascript">
-function kotae()
-{
-if(f.q1.value == "松山" || f.q1.value == "松山市") f.q1.style.backgroundColor="#00ffff"
-else f.q1.style.backgroundColor="#ff0000"
-if(f.q2.value == "名古屋" || f.q2.value == "名古屋市") f.q2.style.backgroundColor="#00ffff"
-else f.q2.style.backgroundColor="#ff0000"
-if(f.q3.value == "金沢" || f.q3.value == "金沢市") f.q3.style.backgroundColor="#00ffff"
-else f.q3.style.backgroundColor="#ff0000"
-if(f.q4.value == "高松" || f.q4.value == "高松市") f.q4.style.backgroundColor="#00ffff"
-else f.q4.style.backgroundColor="#ff0000"
-}
-</script>
-</head>
-<body>
-<form name="f">
-次の県の県庁所在地はどこですか。<p>
-愛媛県 <input name="q1"><p>
-愛知県 <input name="q2"><p>
-石川県 <input name="q3"><p>
-香川県 <input name="q4"><p>
-<input type="button" value="答え合わせ" onclick="kotae()">
-</form>
--->
-
-<!--パスワード型文字入力-->
-<style type="text/css">
-<!--
-.inputSample {
-width:200px;
-font-size: 20pt;
-padding: 5px;
-background-color: #ccffff;
-border: 3px inset #00ccff;
--->
-
-
-
-
-</style>
-<!--
-<br><br><br><br><br><br><br><br>
-<p>暗号を入力せよ！</p>
-<input type="password" name="in01" placeholder="パスワ－ドを入力" class="inputSample">
-	
-<marquee>
-	<p>みんなでがんばろー！</p>
-</marquee>
--->
 </body>
