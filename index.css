@@ -4,6 +4,7 @@ margin:0px;
 padding:0px;
 text-align:center;
 }
+
 #outer {
 margin:0px auto 0px auto;
 width:860px;
@@ -15,10 +16,11 @@ background-color:#ffffff;
 border-left:1px solid #CFCBC3;
 border-right:1px solid #CFCBC3;
 }
+
 #header {
 padding:10px 0px 4px 25px;
 text-align:left;
-background-color:#6E0000;
+background-color:#000000;
 color:#ffffff;
 height:94px;
 }
@@ -26,16 +28,13 @@ height:94px;
 padding-left:10px;
 line-height:140%;
 }
-#text {
-padding:9px 25px 9px 25px;
+#home_title {
+padding:10px 25px 10px 150px;
 line-height:150%;
 }
 ul {
 margin: 0 0 0 1em;
 padding: 0;
-}
-li {
-
 }
 
 P {
@@ -84,4 +83,26 @@ text-decoration:underline;
 
 #quiz01{
 font-size:20px;
+}
+
+img.BW_face{
+width:500px;
+height:550px;
+}
+
+img.title{
+width:600px;
+height:150px;
+
+}
+
+img.start{
+width:300px;
+height:130px;
+
+}
+
+#start {
+padding:10px 25px 10px 250px;
+line-height:150%;
 }
