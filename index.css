@@ -31,7 +31,7 @@ line-height:140%;
 #home_title {
 margin:0px auto 0px auto;
 padding:0px auto 0px auto;
-line-height:150%;
+line-height:auto;
 }
 
 //10px 25px 10px 80px
