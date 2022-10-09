@@ -18,7 +18,7 @@ border-right:1px solid #CFCBC3;
 }
 
 #header {
-padding:10px 0px 4px 25px;
+margin:0px auto 0px auto;
 text-align:left;
 background-color:#000000;
 color:#ffffff;
@@ -29,9 +29,14 @@ padding-left:10px;
 line-height:140%;
 }
 #home_title {
-padding:10px 25px 10px 80px;
+margin:0px auto 0px auto;
+padding:0px auto 0px auto;
 line-height:150%;
 }
+
+//10px 25px 10px 80px
+
+
 ul {
 margin: 0 0 0 1em;
 padding: 0;
