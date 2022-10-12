@@ -21,23 +21,43 @@
 </div>
 <div id="text">
 	<h2>謎解き〇〇〇ゲーム！！！</h2>
-	<img src="img/kari.jpg" alt="仮置きの画像です！">
+	<img src="img/kari3.jpg" alt="仮置きの画像です！">
 </div>
 
 
 <body>
-    <button id="switch_btn">第一問　解答！</button>
+    <button id="switch_btn"><img src="img/start_c.png" alt="仮置きの画像です！" class="start"></button>
 	<div id="search_field" style="display: none;">
-		<br><img src="img/karitest.jpg" alt="仮置きの画像です！">
+		<br><img src="img/Mondai1.jpg" alt="仮置きの画像です！">
 	<body>
-    <br><button id="switch_btn2">第二問　解答！</button>
+    <br><button id="switch_btn2"><img src="img/Abutton.jpg" alt="仮置きの画像です！" class="A_button"></button>
+	<img src="img/Bbutton.jpg" alt="仮置きの画像です！" class="B_button">
 	<div id="search_field2" style="display: none;">
-		<br><img src="img/karitest.jpg" alt="仮置きの画像です！">
+		<br><img src="img/answer.png" alt="仮置きの画像です！" class="answer">
 	<body>
-    <br><button id="switch_btn3">第三問　解答！</button>
+    <br><button id="switch_btn3"><img src="img/Step.jpg" alt="仮置きの画像です！" class="Step"></button>
 	<div id="search_field3" style="display: none;">
-		<br><img src="img/karitest.jpg" alt="仮置きの画像です！">
+		<br><img src="img/Mondai2.jpg" alt="仮置きの画像です！" class="Mondai2">
 	</body>
+    <br><img src="img/Abutton.jpg" alt="仮置きの画像です！" class="A_button">
+	<button id="switch_btn4"><img src="img/Bbutton.jpg" alt="仮置きの画像です！" class="B_button"></button>
+	<img src="img/Cbutton.jpg" alt="仮置きの画像です！" class="C_button">
+	<div id="search_field4" style="display: none;">
+		<br><img src="img/answer.png" alt="仮置きの画像です！" class="answer">
+    <br><button id="switch_btn5"><img src="img/Step.jpg" alt="仮置きの画像です！" class="Step"></button>
+	<div id="search_field5" style="display: none;">
+		<br><img src="img/Mondai3.jpg" alt="仮置きの画像です！" class="Mondai3">
+	<body>
+    <br><img src="img/kai.jpg" alt="仮置きの画像です！" class="kai">
+	<button id="switch_btn6"><img src="img/ito.jpg" alt="仮置きの画像です！" class="ito"></button>
+	<img src="img/mon.jpg" alt="仮置きの画像です！" class="mon">
+	<img src="img/kan.jpg" alt="仮置きの画像です！" class="kan">
+	<div id="search_field6" style="display: none;">
+		<br><img src="img/answer.png" alt="仮置きの画像です！" class="answer">
+
+	<div class = "AR" id = "AR">
+		<a href="https://palanar.com/ar_contents/085b5f8f78d107b1"><img src="img/ARtap.jpg" class ="AR"></a>
+	</div>
 	</div>
   </body>
 <script>
@@ -76,6 +96,58 @@ window.addEventListener("DOMContentLoaded", () => {
       search_field3.style.display = "block";
     } else {
       search_field3.style.display = "none";
+    }
+  })
+})
+
+window.addEventListener("DOMContentLoaded", () => {
+  const switch_btn4 = document.getElementById("switch_btn4");
+  const search_field = document.getElementById("search_field4");
+  
+  switch_btn4.addEventListener("click", () => {
+    if(getComputedStyle(search_field).display == "none"){
+      search_field4.style.display = "block";
+    } else {
+      search_field4.style.display = "none";
+    }
+  })
+})
+
+window.addEventListener("DOMContentLoaded", () => {
+  const switch_btn5 = document.getElementById("switch_btn5");
+  const search_field = document.getElementById("search_field5");
+  
+  switch_btn5.addEventListener("click", () => {
+    if(getComputedStyle(search_field).display == "none"){
+      search_field5.style.display = "block";
+    } else {
+      search_field5.style.display = "none";
+    }
+  })
+})
+
+window.addEventListener("DOMContentLoaded", () => {
+  const switch_btn6 = document.getElementById("switch_btn6");
+  const search_field = document.getElementById("search_field6");
+  
+  switch_btn6.addEventListener("click", () => {
+    if(getComputedStyle(search_field).display == "none"){
+      search_field6.style.display = "block";
+    } else {
+      search_field6.style.display = "none";
+    }
+  })
+})
+
+window.addEventListener("DOMContentLoaded", () => {
+  const switch_btn7 = document.getElementById("switch_btn7");
+  const search_field = document.getElementById("search_field7");
+  
+  switch_btn7.addEventListener("click", () => {
+    if(getComputedStyle(search_field).display == "none"){
+      search_field7.style.display = "block";
+    } else {
+      search_field7.style.display = "none";
     }
   })
 })
