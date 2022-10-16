@@ -1,0 +1,27 @@
+* {
+	margin:0; padding:0; 		/*全要素のマージン・パディングをリセット*/
+}
+
+/* body（全体）に適用。ここでmarginとpaddingの初期化も行う。 */
+body {
+    background-color:#F7F7F7;
+    text-align:center;
+    }
+
+#header {
+    text-align:left;
+    background-color:#000000;
+    color:#ffffff;
+    height: auto;
+    font-size:13px;
+    }
+
+#header p, #header h1{
+    margin: 0px;
+    padding: 10px;
+}
+
+#mondai1{
+    padding: 10px 0;
+    background-color: darkgrey;
+}

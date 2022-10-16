@@ -13,72 +13,35 @@
 
 	
 <title>人間情報研究会 淑楓祭 謎解き</title>
-<link rel="stylesheet" href="index.css" type="text/css" />
+<link rel="stylesheet" href="index2.css" type="text/css" />
 <link rel="stylesheet" href="index_camera.css"/>
+<link rel="javascript" href="glitch.js">
+<script type="text/javascript" src="FormAndBtn.js"></script>
 </head>
 
 <body>
-	<div id="outer">
-		<div id="header"><h1>人間情報研究会 淑楓祭 謎解き</h1>
-		<p class="description">人間情報研究会</p>
-		</div>
-	</div>
+    <div id="header">
+        <p class="description">人間情報研究会</p>
+        <h1>人間情報研究会 淑楓祭 謎解き</h1>
+    </div>
+
 	<div id="text">
 		<h2>謎解き〇〇〇ゲーム！！！</h2>
 		<img src="img/mondai_rogo.jpg" alt="仮置きの画像です！">
 	</div>
 
-    <form name="f">
-        回答を入力！
-        <br>
-        <input name="q1" style="width:250px; height:20px">
-        <input type="button" value="答え合わせ" onclick="kotae()" style="width:200px; height:60px" id="switch_btn" class="start">
-    </form>
+    <div id="mondai1">
+        <h4>aaa</h4>
+        <form name="f">
+            回答を入力！
+            <br>
+            <input name="q1" style="width:250px; height:20px">
+            <input type="button" value="答え合わせ" onclick="kotae()" style="width:200px; height:60px" id="switch_btn" class="start">
+        </form>
 
-    <!-- 謎解きのボタン -->
-	<div id="search_field" style="display: none;">
-    <img src="img/Mondai1.jpg" alt="仮置きの画像です！">
+        <!-- 謎解きのボタン -->
+        <div id="search_field" style="display: none;">
+        <img src="img/Mondai1.jpg" alt="仮置きの画像です！">
+        </div>
     </div>
-
-<script>
-    //グローバルでswich_btnを定義して一問目のボタンの情報を代入。search_fieldは隠す要素。
-    window.addEventListener("DOMContentLoaded", () => {
-    const switch_btn = document.getElementById("switch_btn");
-    const search_field = document.getElementById("search_field");
-    })
-
-    //f.q1.value（フォームのq1の値）を判定する関数
-    //ドーナッツまたはどーなっつの場合は、f.q1.value（フォームのq1の値）を〇に
-    //そうでなければ×に
-    function kotae()
-    {
-    if(f.q1.value == "ドーナッツ" || f.q1.value == "どーなっつ" || f.q1.value == "ドーナツ" || f.q1.value == "どーなつ" || f.q1.value == "LEVEL2_CLEARE___01011") {
-        f.q1.value="LEVEL2_CLEARE___01011";
-    }else {
-        f.q1.value="False___try_again";
-    }
-
-    if(getComputedStyle(search_field).display == "none" && f.q1.value == "LEVEL2_CLEARE___01011" ){
-        search_field.style.display = "block";
-        } else {
-        search_field.style.display = "none";
-        }}
-
-
-    
-    //switch_btn（一問目ボタン）がクリックされたときに発火。
-    //もしsearch_field（隠された要素）の表示 が none（非表示）だった場合
-    //search_field（隠された要素）の表示 を block（ブロックレベル要素の表示）に。
-    //そうでなければ
-    //search_field（隠された要素）の表示 を none（非表示）に。
-    
-    //switch_btn.addEventListener("click", () => {
-    //if(getComputedStyle(search_field).display == "none" && f.q1.value == "LEVEL2_CLEARE___0101011101101011101011101" ){
-    //    search_field.style.display = "block";
-    //    } else {
-    //    search_field.style.display = "none";
-    //    }
-    //  })
-    //})
-</script>
 </body>
