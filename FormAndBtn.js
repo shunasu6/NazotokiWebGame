@@ -7,7 +7,7 @@ window.addEventListener("DOMContentLoaded", () => {
     //f.q1.value（フォームのq1の値）を判定する関数
     //ドーナッツまたはどーなっつの場合は、f.q1.value（フォームのq1の値）を〇に
     //そうでなければ×に
-    function kotae()
+    function kotae2()
     {
     if(f.q1.value == "ドーナッツ" || f.q1.value == "どーなっつ" || f.q1.value == "ドーナツ" || f.q1.value == "どーなつ" || f.q1.value == "LEVEL2_CLEARE___01011") {
         f.q1.value="LEVEL2_CLEARE___01011";
