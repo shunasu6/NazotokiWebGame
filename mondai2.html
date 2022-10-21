@@ -2,18 +2,12 @@
 <html>
 <head>
 <meta charset="utf-8" />
-<meta name="viewport"
-	content="width=320,
-	height=480,
-	initial-scale=1.0,
-	minimum-scale=1.0,
-	maximum-scale=2.0,
-	user-scalable=yes" />    <!--スマホの画面サイズ-->
+<meta name="viewport" content="width=device-width" />
 
 
 	
 <title>人間情報研究会 淑楓祭 謎解き</title>
-<link rel="stylesheet" href="index2.css" type="text/css" />
+<link rel="stylesheet" href="mondai2.css" type="text/css" />
 <link rel="stylesheet" href="index_camera.css"/>
 <link rel="javascript" href="glitch.js">
 <script type="text/javascript" src="FormAndBtn.js"></script>
@@ -22,18 +16,20 @@
 <body>
     <div id="header">
         <p class="description">人間情報研究会</p>
-        <h1>人間情報研究会 淑楓祭 謎解き</h1>
+        <h1>人間情報研究会 淑楓祭 探索型謎解き企画</h1>
     </div>
 
 	<div id="text">
-		<h2>謎解き〇〇〇ゲーム！！！</h2>
-		<img src="img/mondai_rogo.jpg" alt="仮置きの画像です！">
+		<h2>謎を解け</h2>
+		<h2>偽りの楽園から目覚めろ</h2>
+		<p>テキストを入力</p>
+		<!-- <img src="img/mondai_rogo.jpg" alt="仮置きの画像です！"> -->
 	</div>
 
     <div id="mondai1">
-        <h4>aaa</h4>
+        <h4>テスト表示（秋を入力で解除）</h4>
         <form name="f">
-            回答を入力！
+            暗号を入力せよ
             <br>
             <input name="q1" style="width:250px; height:20px">
             <input type="button" value="答え合わせ" onclick="kotae()" style="width:200px; height:60px" id="switch_btn" class="start">
@@ -44,4 +40,20 @@
         <img src="img/Mondai1.jpg" alt="仮置きの画像です！">
         </div>
     </div>
+
+	<div id="mondai2">
+        <h4>aaa</h4>
+        <form name="f2">
+            暗号を入力せよ
+            <br>
+            <input name="q1" style="width:250px; height:20px">
+            <input type="button" value="答え合わせ" onclick="kotae2()" style="width:200px; height:60px" id="switch_btn" class="start">
+        </form>
+
+        <!-- 謎解きのボタン -->
+        <div id="search_field_2" style="display: none;">
+        <img src="img/Mondai1.jpg" alt="仮置きの画像です！">
+        </div>
+    </div>
+	
 </body>
