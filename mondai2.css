@@ -1,9 +1,9 @@
-.glitch{
+#q2{
     height: 100px;
 }
 
-#q2{
-* {
+*{
+
 	margin:0; padding:0; 		/*全要素のマージン・パディングをリセット*/
 }
 
