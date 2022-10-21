@@ -1,9 +1,62 @@
+<<<<<<< HEAD
 
 .glitch{
     height: 100px;
 }
 
 #q2{
+=======
+* {
+	margin:0; padding:0; 		/*全要素のマージン・パディングをリセット*/
+}
+
+/* body（全体）に適用。ここでmarginとpaddingの初期化も行う。 */
+body {
+    background-color:#000000;
+    text-align:center;
+
+    }
+
+
+
+#header {
+    text-align:left;
+    background-color:#535353;
+    color:#ffffff;
+    height: auto;
+    font-size:13px;
+    }
+
+#header p, h1{
+    margin: 0px;
+    padding: 10px;
+    color: #ffffff;
+}
+
+#header h1{
+    font-size: 16px;
+}
+
+#text h2{
+    color: white;
+    text-shadow: 1px 1px 3px #c4ecff;
+    font-family:"Yu Gothic";
+    font-weight: lighter;
+    padding: 300px 0;
+    background-image: url("img/circle.jpg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+#text p{
+    color: white;
+}
+
+#mondai1{
+>>>>>>> FAB
     padding: 10px 0;
     background-color: darkgrey;
 }
