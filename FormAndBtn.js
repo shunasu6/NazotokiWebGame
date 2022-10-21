@@ -1,6 +1,6 @@
 //グローバルでswich_btnを定義して一問目のボタンの情報を代入。search_fieldは隠す要素。
 window.addEventListener("DOMContentLoaded", () => {
-    const switch_btn = document.getElementById("switch_btn");
+    // const switch_btn = document.getElementById("switch_btn");
     const search_field = document.getElementById("search_field");
     })
 
