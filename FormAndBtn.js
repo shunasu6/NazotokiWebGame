@@ -11,7 +11,7 @@ window.addEventListener("DOMContentLoaded", () => {
     function kotae()
     {
     if(f.q1.value == "あき" || f.q1.value == "秋" || f.q1.value == "ドーナツ" || f.q1.value == "どーなつ" || f.q1.value == "LEVEL1_CLEARE___01011") {
-        f.q1.value="LEVEL2_CLEARE___01011";
+        f.q1.value="LEVEL1_CLEARE___01011";
     }else {
         f.q1.value="False___try_again";
     }
@@ -35,6 +35,8 @@ window.addEventListener("DOMContentLoaded", () => {
         } else {
         search_field_2.style.display = "none";
         }}
+
+    
 
 //switch_btn（一問目ボタン）がクリックされたときに発火。
 //もしsearch_field（隠された要素）の表示 が none（非表示）だった場合

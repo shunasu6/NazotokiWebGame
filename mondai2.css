@@ -45,7 +45,17 @@ body {
     background-repeat: no-repeat;
 }
 
+#text p{
+    margin: 20px 0;
+    padding: 400px 0;
+}
 
+.glitch{
+    background-image: url("img/研究会グリッチロゴ.gif");
+    background-size: 70%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 
 #text p{
     color: white;
