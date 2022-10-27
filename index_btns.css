@@ -1,0 +1,27 @@
+.btn{
+    background-color: white;
+    padding: 50px 0;
+    width: auto;
+}
+
+.btn img{
+    width: 70%;
+}
+
+.prologue{
+    width: 80%;
+    background-color: rgba(13, 247, 255, 0.5);
+    margin: 40px auto;
+}
+
+.img_Gp{
+    width: 95%;
+
+}
+
+.prologue p{
+    text-align: left;
+    padding: 30px;
+    font-size: 14px;
+
+}

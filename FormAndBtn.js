@@ -1,6 +1,7 @@
 //グローバルでswich_btnを定義して一問目のボタンの情報を代入。search_fieldは隠す要素。
 window.addEventListener("DOMContentLoaded", () => {
     // const switch_btn = document.getElementById("switch_btn");
+    const search_field0 = document.getElementById("search_field0");
     const search_field = document.getElementById("search_field");
     const search_field_2 = document.getElementById("search_field_2");
     })
@@ -8,6 +9,20 @@ window.addEventListener("DOMContentLoaded", () => {
     //f.q1.value（フォームのq1の値）を判定する関数
     //ドーナッツまたはどーなっつの場合は、f.q1.value（フォームのq1の値）を〇に
     //そうでなければ×に
+    function kotae0()
+    {
+    if(f.q1.value == "あき" || f.q1.value == "秋" || f.q1.value == "ドーナツ" || f.q1.value == "どーなつ" || f.q1.value == "LEVEL1_CLEARE___01011") {
+        f.q1.value="LEVEL1_CLEARE___01011";
+    }else {
+        f.q1.value="False___try_again";
+    }
+
+    if(getComputedStyle(search_field).display == "none" && f.q1.value == "LEVEL1_CLEARE___01011" ){
+        search_field0.style.display = "block";
+        } else {
+        search_field0.style.display = "none";
+        }}
+
     function kotae()
     {
     if(f.q1.value == "あき" || f.q1.value == "秋" || f.q1.value == "ドーナツ" || f.q1.value == "どーなつ" || f.q1.value == "LEVEL1_CLEARE___01011") {
