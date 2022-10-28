@@ -25,3 +25,19 @@
     font-size: 14px;
 
 }
+
+.explanation{
+    margin: 30px 0;
+}
+
+.explanation .p1{
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.explanation .p2{
+    margin: 0 auto;
+    text-align: left;
+    width: 80%;
+    font-size: 16px;
+}
