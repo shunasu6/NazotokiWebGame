@@ -17,7 +17,14 @@
 
 .img_Gp{
     width: 95%;
+}
 
+.img_Ic{
+    width: 20%;
+    display: block;
+    text-align: left;
+    margin-left: 30px;
+    padding-top: 30px;
 }
 
 .prologue p{
@@ -47,6 +54,7 @@
     border-radius: 5px;
     background-color: lightblue;
     padding: 10px;
+    margin: 100px 0 300px 0;
     text-decoration: none;
     color: rgb(22, 22, 22);
 }

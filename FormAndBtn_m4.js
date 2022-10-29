@@ -34,8 +34,10 @@ window.addEventListener("DOMContentLoaded", () => {
 
     if(getComputedStyle(search_field_2).display == "none" && f2.q1.value == "LEVEL2_CLEARE___01011" ){
         search_field_2.style.display = "block";
+        search_field0.style.display = "none";
         } else {
         search_field_2.style.display = "none";
+        search_field0.style.display = "block";
         }}
 
     
