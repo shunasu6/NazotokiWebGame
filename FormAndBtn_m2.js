@@ -12,7 +12,7 @@ window.addEventListener("DOMContentLoaded", () => {
 
     function kotae()
     {
-    if(f.q1.value == "" || f.q1.value == "秋" || f.q1.value == "ドーナツ" || f.q1.value == "どーなつ" || f.q1.value == "LEVEL1_CLEARE___01011") {
+    if(f.q1.value == "K" || f.q1.value == "k" || f.q1.value == "ドーナツ" || f.q1.value == "どーなつ" || f.q1.value == "LEVEL1_CLEARE___01011") {
         f.q1.value="LEVEL1_CLEARE___01011";
     }else {
         f.q1.value="False___try_again";
