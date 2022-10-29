@@ -10,7 +10,8 @@
 <link rel="stylesheet" href="mondai2.css" type="text/css" />
 <link rel="stylesheet" href="index_camera.css"/>
 <script type="text/javascript" src="glitch.js"></script>
-<script type="text/javascript" src="FormAndBtn.js"></script>
+<script type="text/javascript" src="FormAndBtn_m.js"></script>
+<link rel="stylesheet" href="index_btns.css">
 </head>
 
 <body>
@@ -20,26 +21,65 @@
     </div>
 
 	<div id="text">
-        <div class="glitch" style="background-image: url(../img/AiIcon.png);">
-        </div>
-		<h2>謎を解け</h2>
-		<h2>偽りの楽園から目覚めろ</h2>
-		<p class="glitch">テキストを入力</p>
+        <div class="prologue">
+			<p>代々先輩から伝わる<br>
+                暴走AIを止めるための  <br>
+                暗号を一つ送らせてもらう。<br>
+                <br>
+                たとえこれでAIを止められなくても<br>
+                何かの手掛かりになるかもしれない。<br>
+                <br>
+                我々には<br>
+                何が書いてあるかさっぱりわからないが...<br>
+			</p>
+            <h3>─────暗号─────</h3>
+			<img class="img_Gp" src="img/mondai1.png" alt="">
+		</div>
 		<!-- <img src="img/mondai_rogo.jpg" alt="仮置きの画像です！"> -->
 	</div>
 
-    <div id="mondai0">
-        <h4>テスト表示（秋を入力で解除）</h4>
+    <div id="mondai1">
+        <h4>？を入力せよ</h4>
         <form name="f">
-            暗号を入力せよ
             <br>
             <input name="q1" style="width:250px; height:20px">
-            <input type="button" value="答え合わせ" onclick="kotae0()" style="width:200px; height:60px" id="switch_btn" class="start">
+            <input type="button" value="答え合わせ" onclick="kotae()" style="width:200px; height:60px" id="switch_btn" class="start">
         </form>
 
         <!-- 謎解きのボタン -->
-        <div id="search_field0" style="display: none;">
-        <img src="img/Mondai1.jpg" alt="仮置きの画像です！">
+        <div id="search_field" style="display: none;">
+            <div class="prologue"><p>人間情報研究会本部の出口から<br>
+                中へ入れ</p></div>
+            <a href="mondai2.html" class="btnHidden">次のページへ</a>
+        </div>
+    </div>
+
+    <div id="text">
+        <div class="prologue">
+			<p>人間情報研究会の本部へ行けば<br>
+                何か手掛かりが得られるかもしれないな...<br>
+                <br>
+                マップを渡しておこう。<br>
+                <br>
+                「人間情報研究会本部（222教室）」へ向かってくれ。<br>
+			</p>
+			<img class="img_Gp" src="img/map1.png" alt="">
+		</div>
+		<!-- <img src="img/mondai_rogo.jpg" alt="仮置きの画像です！"> -->
+	</div>
+
+	<div id="mondai2">
+        <h4>暗号の手掛かり</h4>
+        <form name="f2">
+            暗号を入力せよ
+            <br>
+            <input name="q1" style="width:250px; height:20px">
+            <input type="button" value="パスワードを入力" onclick="kotae2()" style="width:200px; height:60px" id="switch_btn" class="start">
+        </form>
+
+        <!-- 謎解きのボタン -->
+        <div id="search_field_2" style="display: none;">
+            <video src="img/AKIIKA.mp4" loop autoplay muted id="V"></video>
         </div>
     </div>
 	

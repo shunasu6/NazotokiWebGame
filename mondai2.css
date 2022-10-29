@@ -62,7 +62,28 @@ body {
     color: white;
 }
 
-#mondai1{
-    padding: 10px 0;
-    background-color: darkgrey;
+h4{
+    color: white;
+}
+
+h3{
+    color: white;;
+}
+
+#V{
+    width: 70%;
+}
+
+#Vs{
+    width: 85%;
+}
+
+h5{
+    margin: 20px auto;
+    color: white;
+    width: 80%;
+}
+
+.img_tp{
+    width: 60%;
 }

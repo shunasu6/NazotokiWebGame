@@ -17,7 +17,7 @@ window.addEventListener("DOMContentLoaded", () => {
         f.q1.value="False___try_again";
     }
 
-    if(getComputedStyle(search_field).display == "none" && f.q1.value == "LEVEL1_CLEARE___01011" ){
+    if(getComputedStyle(search_field0).display == "none" && f.q1.value == "LEVEL1_CLEARE___01011" ){
         search_field0.style.display = "block";
         } else {
         search_field0.style.display = "none";

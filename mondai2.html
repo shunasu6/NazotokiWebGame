@@ -10,7 +10,8 @@
 <link rel="stylesheet" href="mondai2.css" type="text/css" />
 <link rel="stylesheet" href="index_camera.css"/>
 <script type="text/javascript" src="glitch.js"></script>
-<script type="text/javascript" src="FormAndBtn.js"></script>
+<script type="text/javascript" src="FormAndBtn_m3.js"></script>
+<link rel="stylesheet" href="index_btns.css">
 </head>
 
 <body>
@@ -20,42 +21,76 @@
     </div>
 
 	<div id="text">
-        <div class="glitch" style="background-image: url(../img/AiIcon.png);">
-        </div>
-		<h2>謎を解け</h2>
-		<h2>偽りの楽園から目覚めろ</h2>
-		<p class="glitch">テキストを入力</p>
+        <div class="prologue">
+			<p>研究会にあったあの端末…<br>
+                ４つの鍵の正体は4枚のカードということか。<br>
+                <br>
+                4枚のカードをすべて集めると、<br>あの端末でAIの暴走を食い止めることが出来そうだ。<br>
+                <br>
+                そしてどうやら…先ほどの暗号が解かれたとき<br>、鍵となるカードを1枚と新たな暗号を入手できたようだ。<br>
+                <br>
+                この暗号を解けばまたカードが手に入ると考えられる。<br>
+                <br>
+                引き続き暗号の解読を頼みたい。<br>
+                
+			</p>
+            <img class="img_tp" src="img/2.png" alt="">
+            <h3>─────暗号─────</h3>
+            <img class="img_Gp" src="img/Ngy.jpg" alt="">
+		</div>
 		<!-- <img src="img/mondai_rogo.jpg" alt="仮置きの画像です！"> -->
 	</div>
 
     <div id="mondai1">
-        <h4>テスト表示（秋を入力で解除）</h4>
+        <h4>？を入力せよ</h4>
         <form name="f">
-            暗号を入力せよ
             <br>
             <input name="q1" style="width:250px; height:20px">
             <input type="button" value="答え合わせ" onclick="kotae()" style="width:200px; height:60px" id="switch_btn" class="start">
         </form>
+        <p>答えが分かったら入力してみよう！</p>
 
         <!-- 謎解きのボタン -->
         <div id="search_field" style="display: none;">
-        <img src="img/Mondai1.jpg" alt="仮置きの画像です！">
+            <a href="mondai3.html" class="btnHidden">次のページへ</a>
         </div>
     </div>
 
+    <div id="text">
+        <div class="prologue">
+			<p>この暗号も難解だな<br>
+                何か手掛かりが必要だろう。<br>
+            <br>
+                …そうだ、先ほどのマップを見てくれ。<br>
+			</p>
+			<img class="img_Gp" src="img/mapAll.png" alt="">
+            <p>このマップには先ほど人間情報研究会の本部にもあった、<br>
+                暗号を解く手掛かりを得るためのパスワードの在処が示されている。<br>
+                <br>
+                この暗号を解くためには…<br>
+                <br>
+                <br>
+                旧学生事務室前の手掛かりを確認してほしい。</p>
+		</div>
+		<!-- <img src="img/mondai_rogo.jpg" alt="仮置きの画像です！"> -->
+	</div>
+
 	<div id="mondai2">
-        <h4>aaa</h4>
+        <h4>暗号の手掛かり</h4>
         <form name="f2">
             暗号を入力せよ
             <br>
             <input name="q1" style="width:250px; height:20px">
-            <input type="button" value="答え合わせ" onclick="kotae2()" style="width:200px; height:60px" id="switch_btn" class="start">
+            <input type="button" value="パスワードを入力" onclick="kotae2()" style="width:200px; height:60px" id="switch_btn" class="start">
         </form>
 
         <!-- 謎解きのボタン -->
         <div id="search_field_2" style="display: none;">
-        <img src="img/Mondai1.jpg" alt="仮置きの画像です！">
+            <video src="img/ChessHint.mp4" loop autoplay muted id="V"></video>
         </div>
     </div>
-	
+	<h5>暗号の手掛かりを探しに<br>1号館の旧学生事務室前へ行こう！<br>
+        <br>
+        （パスワードの書かれたビラを探し、<br>
+        そこに書かれたパスワードを入力してください。）</h5>
 </body>

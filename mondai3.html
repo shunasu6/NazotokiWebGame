@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+
+	
+<title>人間情報研究会 淑楓祭 謎解き</title>
+<link rel="stylesheet" href="mondai2.css" type="text/css" />
+<link rel="stylesheet" href="index_camera.css"/>
+<script type="text/javascript" src="glitch.js"></script>
+<script type="text/javascript" src="FormAndBtn_m3.js"></script>
+<link rel="stylesheet" href="index_btns.css">
+</head>
+
+<body>
+    <div id="header">
+        <p class="description">人間情報研究会</p>
+        <h1>人間情報研究会 淑楓祭 探索型謎解き企画</h1>
+    </div>
+
+	<div id="text">
+        <div class="prologue">
+			<p>やはり、今回の暗号を解いた時にも<br>
+                カードと暗号を入手することができたようだ。<br>
+                <br>
+                引き続き暗号の解読をお願いしたい。<br>
+			</p>
+            <img class="img_tp" src="img/3_1.png" alt="">
+            <h3>─────暗号─────</h3>
+            <img class="img_Gp" src="img/AichiTani.png" alt="">
+		</div>
+		<!-- <img src="img/mondai_rogo.jpg" alt="仮置きの画像です！"> -->
+	</div>
+
+    <div id="mondai1">
+        <h4>？を入力せよ</h4>
+        <form name="f">
+            <br>
+            <input name="q1" style="width:250px; height:20px">
+            <input type="button" value="答え合わせ" onclick="kotae()" style="width:200px; height:60px" id="switch_btn" class="start">
+        </form>
+        <p>答えが分かったら入力してみよう！</p>
+
+        <!-- 謎解きのボタン -->
+        <div id="search_field" style="display: none;">
+            <a href="mondai4.html" class="btnHidden">次のページへ</a>
+        </div>
+    </div>
+
+    <div id="text">
+        <div class="prologue">
+			<p>この暗号も手掛かりを頼ることにしよう。<br>
+<br>
+                先ほどのマップを見てくれ。
+			</p>
+			<img class="img_Gp" src="img/mapAll.png" alt="">
+            <p>先ほども言ったが、<br>これは暗号を解く手掛かりを得るためのパスワードの在処が示されている。<br>
+                <br>
+                この暗号を解くためには…<br>
+                <br>
+                <br>
+                図書室前の階段にある手掛かりを確認してほしい。</p>
+		</div>
+		<!-- <img src="img/mondai_rogo.jpg" alt="仮置きの画像です！"> -->
+	</div>
+
+	<div id="mondai2">
+        <h4>暗号の手掛かり</h4>
+        <form name="f2">
+            暗号を入力せよ
+            <br>
+            <input name="q1" style="width:250px; height:20px">
+            <input type="button" value="パスワードを入力" onclick="kotae2()" style="width:200px; height:60px" id="switch_btn" class="start">
+        </form>
+
+        <!-- 謎解きのボタン -->
+        <div id="search_field_2" style="display: none;">
+            <video src="img/keybord.mp4" loop autoplay muted id="V"></video>
+        </div>
+    </div>
+	<h5>暗号の手掛かりを探しに図書室前の階段へ行こう！<br>
+        （パスワードの書かれたビラを探し、<br>
+        そこに書かれたパスワードを入力してください。）</h5>
+</body>
